@@ -289,7 +289,7 @@ public class Main extends JavaPlugin {
                     }
                 }
             }
-        }.runTask(this);
+        }.runTaskAsynchronously(this);
         return true;
     }
 
