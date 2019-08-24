@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.logging.Level;
+import java.util.logging.LogRecord;
 
 public class Main extends JavaPlugin {
 
@@ -56,6 +57,18 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        //No CatServer BEGIN
+        getLogger().log(new LogRecord(Level.CONFIG,"禁止CatServer或其他开发者移除本段代码，开发者保留要求删除修改分支、二进制文件的权利"));
+        if (getServer().getName().toLowerCase().contains("catserver")) {
+            // Send FATAL ERROR TO CatServer's users.
+            getLogger().log(new LogRecord(Level.CONFIG,"禁止CatServer或其他开发者移除本段代码，开发者保留要求删除修改分支、二进制文件的权利"));
+            getLogger().severe("禁用：BBSToper-Rerename 不支持CatServer服务端。");
+            Bukkit.getPluginManager().disablePlugin(this);
+            getLogger().log(new LogRecord(Level.CONFIG,"禁止CatServer或其他开发者移除本段代码，开发者保留要求删除修改分支、二进制文件的权利"));
+            return;
+        }
+        getLogger().log(new LogRecord(Level.CONFIG,"禁止CatServer或其他开发者移除本段代码，开发者保留要求删除修改分支、二进制文件的权利"));
+        //No CatServer END
         getLogger().info("BBSToper 重置 by Ghost_chu");
         getLogger().info("考虑一下给作者的服务器使用一张提升卡来支持作者吧!  https://www.mcbbs.net/thread-837933-1-1.html");
         this.saveDefaultConfig();

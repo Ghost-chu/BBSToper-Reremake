@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3744898-6cba-45f6-ae41-c9515a5019a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mcsunnyside/BBSToper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mcsunnyside/BBSToper/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BBSToper-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BBSToper-1.0-SNAPSHOT-sources.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +82,17 @@
       <updated>1566145743979</updated>
       <workItem from="1566145746299" duration="1067000" />
       <workItem from="1566557850808" duration="2541000" />
-      <workItem from="1566560601593" duration="1737000" />
+      <workItem from="1566560601593" duration="2359000" />
+      <workItem from="1566624484020" duration="1080000" />
     </task>
+    <task id="LOCAL-00001" summary="异步处理">
+      <created>1566563354609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566563354609</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,10 +103,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="异步处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步处理" />
   </component>
 </project>
